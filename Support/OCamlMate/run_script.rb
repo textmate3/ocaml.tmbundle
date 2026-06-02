@@ -41,7 +41,7 @@ class UserScript
       ]
       
     possibilities.each() do |p|
-      if File.exists?(p)
+      if File.exist?(p)
         return p
       end
     end
